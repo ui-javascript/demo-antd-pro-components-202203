@@ -4,11 +4,11 @@ exports.CONFIG = {
 
   // entry: './__demo/page*.{tsx,jsx,js}',
 
-  entry: './_form/*.{tsx,jsx,js}',
+  // entry: './_form/*.{tsx,jsx,js}',
 
   // entry: './_list/*.{tsx,jsx,js}',
 
-  // entry: './_table/*.{tsx,jsx,js}',
+  entry: './_table/*.{tsx,jsx,js}',
 
   // entry: './_card/*.{tsx,jsx,js}',
 

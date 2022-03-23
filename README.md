@@ -4,6 +4,7 @@
 - @demo
     - https://ui-javascript.github.io/demo-antd-pro-components-202203/
     - https://8000-uijavascript-demoantdpro-bcz764jnyr2.ws-us38.gitpod.io/json-form.html
+    - https://8000-uijavascript-demoantdpro-o9mub5pkz82.ws-us38.gitpod.io/table-auto-save.html
 
 # 常见问题 @bug
 
