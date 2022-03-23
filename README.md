@@ -1,8 +1,6 @@
 # README
 
-- @demo
-    - https://ui-javascript.github.io/tpl-mpa-umi3-react17
-    - https://ui-javascript.github.io/tpl-mpa-umi3-react17/page2.html
+- @doc https://procomponents.ant.design/components/field
 
 # 常见问题 @bug
 
