@@ -42,6 +42,7 @@ export default defineConfig({
     //   // production: { output: '.mfsu-production' }
   },
   // fastRefresh: {},
+  hash: true,
 
   // @todo 多页面配置总有问题
   mpa: {},
