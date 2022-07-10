@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@ant-design/icons': ^4.7.0
   '@ant-design/pro-card': ^1.18.42
   '@ant-design/pro-components': ^1.1.8
   '@ant-design/pro-descriptions': ^1.10.57
@@ -28,6 +29,7 @@ specifiers:
   yorkie: ^2.0.0
 
 dependencies:
+  '@ant-design/icons': 4.7.0_sfoxds7t5ydpegc3knd667wn6m
   '@ant-design/pro-card': 1.20.12_uytood7v3e5nphrre77ziagiqq
   '@ant-design/pro-components': 1.1.8_sfoxds7t5ydpegc3knd667wn6m
   '@ant-design/pro-descriptions': 1.11.8_uytood7v3e5nphrre77ziagiqq
@@ -49,7 +51,7 @@ dependencies:
 devDependencies:
   '@types/react': 17.0.47
   '@types/react-dom': 17.0.17
-  '@umijs/preset-react': 1.8.31_3jdeserboguigamau6xyznfyji
+  '@umijs/preset-react': 1.8.31_xonkl67bhklir7nd5gurmnhf7u
   '@umijs/test': 3.5.28
   lint-staged: 10.5.4
   prettier: 2.7.1
@@ -1348,7 +1350,7 @@ packages:
       umi: 3.5.28
     dev: true
 
-  /@umijs/plugin-layout/0.18.1_chhtlfsuis6hjju2k7xcnxojey:
+  /@umijs/plugin-layout/0.18.1_ewy7sbrfwjhtlvm2laagzuzhai:
     resolution: {integrity: sha512-15YTcFpic0v15nFzlg6G8nvMCveBtcBL77Wr9wXYJdgR0iU7dnO7T4OqbLwgEc1uHxtGhTVibi6nSGelX56zCg==}
     peerDependencies:
       '@ant-design/icons': ^4.0.0
@@ -1358,6 +1360,7 @@ packages:
       '@umijs/plugin-model': 2.x
       umi: 3.x
     dependencies:
+      '@ant-design/icons': 4.7.0_sfoxds7t5ydpegc3knd667wn6m
       '@ant-design/pro-layout': 6.38.11_uytood7v3e5nphrre77ziagiqq
       '@umijs/plugin-initial-state': 2.4.0_umi@3.5.28
       '@umijs/plugin-locale': 0.15.1_hl5misjg5gznte5v2tnzye7r3y
@@ -1461,7 +1464,7 @@ packages:
     transitivePeerDependencies:
       - react-dom
 
-  /@umijs/preset-react/1.8.31_3jdeserboguigamau6xyznfyji:
+  /@umijs/preset-react/1.8.31_xonkl67bhklir7nd5gurmnhf7u:
     resolution: {integrity: sha512-zQRYJw68mgG6pPcy6GwAXFRC/XxATIGmiaFAZHt7aYDy3VCccmjNKjs1pXqrcHYmGhoa7TyjCHUYEuJSv0n8uw==}
     peerDependencies:
       umi: 3.x
@@ -1473,7 +1476,7 @@ packages:
       '@umijs/plugin-dva': 0.13.0_hl5misjg5gznte5v2tnzye7r3y
       '@umijs/plugin-helmet': 1.1.3_react@17.0.2+umi@3.5.28
       '@umijs/plugin-initial-state': 2.4.0_umi@3.5.28
-      '@umijs/plugin-layout': 0.18.1_chhtlfsuis6hjju2k7xcnxojey
+      '@umijs/plugin-layout': 0.18.1_ewy7sbrfwjhtlvm2laagzuzhai
       '@umijs/plugin-locale': 0.15.1_hl5misjg5gznte5v2tnzye7r3y
       '@umijs/plugin-model': 2.6.2_umi@3.5.28
       '@umijs/plugin-request': 2.8.0_react@17.0.2+umi@3.5.28
