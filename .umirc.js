@@ -45,6 +45,7 @@ export default defineConfig({
 
   // @todo 多页面配置总有问题
   mpa: {},
+  dynamicImport: {},
   // exportStatic: {},
 
   // chainWebpack(config, { env, webpack, createCSSRule }) {
