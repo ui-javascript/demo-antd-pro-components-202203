@@ -28,6 +28,7 @@ export default () => {
   const [editableKeys, setEditableRowKeys] = useState<React.Key[]>(() =>
     defaultData.map((item) => item.id),
   );
+
   const [dataSource, setDataSource] = useState<DataSourceType[]>(
     () => defaultData,
   );
@@ -125,6 +126,7 @@ export default () => {
         }}
         editable={{
           type: 'multiple',
+
           editableKeys,
           actionRender: (row, config, defaultDoms) => {
             return [defaultDoms.delete];
@@ -135,6 +137,7 @@ export default () => {
           onChange: setEditableRowKeys,
         }}
       />
+
       <ProCard title="表格数据" headerBordered collapsible defaultCollapsed>
         <ProFormField
           ignoreFormItem

@@ -20,7 +20,7 @@ function isProd() {
 function shouldReadAsEntry(moduleName) {
   // 是否小写字母开头 并且不以use开头
   return (
-    moduleName.charAt(0).match(/^.*[a-z]+.*$/) &&
+    moduleName.charAt(0).match(/^.*[a-zA-Z]+.*$/) &&
     moduleName.indexOf('use') !== 0
   );
 }
@@ -37,6 +37,9 @@ exports.getEntry = function getEntry(globPath) {
     // --> ['_project', 'module', 'foo.js' ]
     // --> ['_project', 'module' ]
     // --> ['module' ]
+    if (entry.includes('@ignore')) {
+      return true;
+    }
     const sections = entry.split('/').splice(1);
     // console.log(sections)
 
